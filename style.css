@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    gap: 3%;
+}
+
+.container{
+    width: 45vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    background-color: green;
+}
+
+.item{
+    width: 100px;
+    height: 120px;
+    background-color: red;
+}
